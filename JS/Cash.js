@@ -1,0 +1,5 @@
+class Chash extends Payment{
+
+
+
+}

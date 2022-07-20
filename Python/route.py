@@ -1,7 +1,8 @@
 from tracemalloc import start
+from trip import Trip
 
 
-class Route:
-    id = int
+class Route(Trip):
+    
     start = []
     end = []

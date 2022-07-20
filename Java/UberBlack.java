@@ -1,6 +1,5 @@
 import java.util.*;
 
-
 public class UberBlack extends Car{
 
     Map<String, Map<String,Integer>> typeCarAccepted;

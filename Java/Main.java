@@ -2,13 +2,14 @@ class Main {
 
     public static void main(String[] args) {
         //Create new object
-        Account driver = new Account("Luisa Acero",1234567890);
-        Car car = new Car("FIS629" , driver);
+
+        Driver driver = new Driver("Luisa Acero",1234567890);
+        UberX car = new UberX("FIS629" , driver,"Chevrolet","Aveo");
         car.passengers = 4;
         car.printDataCar();
 
-        Account driver2 = new Account("Sandra Martinez", 789456125);
-        Car car2 = new Car("ZXC956", driver2);
+        Driver driver2 = new Driver("Sandra Martinez", 789456125);
+        UberPool car2 = new UberPool("ZXC956", driver2,"Hyundai","i5");
         car2.passengers = 3;
         car2.printDataCar();
     }

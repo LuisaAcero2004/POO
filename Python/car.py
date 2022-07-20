@@ -1,4 +1,3 @@
-import string
 from account import Account
 
 class Car:

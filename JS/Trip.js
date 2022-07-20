@@ -1,6 +1,5 @@
-class Payment{
+class Trip{
     constructor(){
         this.id;
-        
     }
 }

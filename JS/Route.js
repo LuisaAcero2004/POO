@@ -1,5 +1,7 @@
-function Route(){
-    this.id;
-    this.start;
-    this.end;
+class Route extends Trip{
+    constructor(){
+        this.start;
+        this.end;
+
+    }
 }
